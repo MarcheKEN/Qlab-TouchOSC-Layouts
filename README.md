@@ -12,6 +12,16 @@ TouchOSC remote-control layouts for QLab 5, adapted for an iPad and a phone. Bot
 3. In TouchOSC, point the layout's OSC output to the QLab Mac on UDP port `53000`; set the TouchOSC OSC input port to `53001` for replies. Adjust the ports in both apps if your QLab setup differs.
 4. Open the workspace, select a Cue List or Cue Cart, and use the Control, Cue List, and Buttons pages.
 
+QLab OSC Access (the IP address is hidden in this example):
+
+![QLab OSC Access settings](images/qlab-osc-access.png)
+
+TouchOSC OSC Connection 10 (enter your QLab Mac's IP address in **Host**):
+
+![TouchOSC OSC connection settings](images/touchosc-osc-connection.png)
+
+The QLab example grants View, Edit, and Control without a passcode. Anyone who can reach that OSC port can use those permissions; use this setting only on a trusted network.
+
 ## Features and changes from the original
 
 - Playhead and running-cue feedback, with cue number/name and active-cue status.
